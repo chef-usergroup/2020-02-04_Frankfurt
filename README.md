@@ -1,4 +1,3 @@
 # example-hardening
 
-TODO: Enter the cookbook description here.
-
+My pretty nice description
