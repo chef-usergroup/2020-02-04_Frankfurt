@@ -24,7 +24,7 @@ provisioner:
 verifier:
   name: inspec
   reporter:
-    - html
+    - cli
     - html:.kitchen/results/%{suite}-%{platform}.html
 
 platforms:

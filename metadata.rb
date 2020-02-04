@@ -1,5 +1,5 @@
 name 'example-hardening'
-maintainer 'Patrick Schaumburg'
+maintainer 'Chef Usergroup'
 maintainer_email 'pschaumburg@tecracer.de'
 license 'All Rights Reserved'
 description 'Installs/Configures example-hardening'
@@ -19,4 +19,4 @@ issues_url 'https://github.com/tecracer/example-hardening/issues'
 source_url 'https://github.com/tecracer/example-hardening'
 
 supports 'centos'
-supports 'windows'
+supports 'ubuntu'
