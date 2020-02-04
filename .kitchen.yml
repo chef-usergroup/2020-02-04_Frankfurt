@@ -42,10 +42,15 @@ platforms:
   #     box: mwrock/Windows2016
 
 suites:
-  - name: default
+  - name: ssh
     run_list:
       - recipe[example-hardening::default]
     verifier:
       inspec_tests:
-        - test/integration/default
-    attributes:
+        - test/integration/default/ssh.rb
+  - name: demo
+    run_list:
+      - recipe[example-hardening::demo]
+    verifier:
+      inspec_tests:
+        - test/integration/default/demo.rb
