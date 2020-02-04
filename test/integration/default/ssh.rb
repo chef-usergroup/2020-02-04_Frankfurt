@@ -40,10 +40,6 @@ control 'ssh-sshd-loglevel' do
   ref 'CIS Generic Linux Benchmark v1.0.0 - Item 5.2.3'
 
   impact 0.49
-  tag cvss3: 'CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N'
-
-  tag trc_audit_id: '4.4.4.3'
-  tag trc_audit_item: 'instance_linux_remoteaccess'
 
   describe sshd_config('/etc/ssh/sshd_config') do
     its('LogLevel') { should cmp 'INFO' }
