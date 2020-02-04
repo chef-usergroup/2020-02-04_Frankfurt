@@ -33,7 +33,7 @@ platforms:
   # - name: centos-5
   # - name: centos-6
   - name: centos-7
-  - name: centos-8
+  # - name: centos-8
   # - name: windows-2012
   #   driver:
   #     box: mwrock/Windows2012R2
