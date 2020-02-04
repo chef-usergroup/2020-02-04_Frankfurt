@@ -59,6 +59,6 @@ control 'ssh-sshd-no-root' do
   impact 0.98
 
   describe sshd_config('/etc/ssh/sshd_config') do
-    its('PermitRootLogin') { should cmp 'no'}
+    its('PermitRootLogin') { should cmp 'no' }
   end
 end
