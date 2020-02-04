@@ -21,6 +21,7 @@ provisioner:
 
 verifier:
   name: inspec
+  format: html
 
 platforms:
   - name: ubuntu-18.04
@@ -38,6 +39,8 @@ platforms:
 
 suites:
   - name: default
+    run_list:
+      - recipe[example-hardening::default]
     verifier:
       inspec_tests:
         - test/integration/default
