@@ -22,7 +22,17 @@ verifier:
 
 platforms:
   - name: ubuntu-18.04
+  - name: ubuntu-19.10
+  # - name: centos-5
+  - name: centos-6
   - name: centos-7
+  # - name: centos-8
+  # - name: windows-2012
+  #   driver:
+  #     box: mwrock/Windows2012R2
+  # - name: windows-2016
+  #   driver:
+  #     box: mwrock/Windows2016
 
 suites:
   - name: default
