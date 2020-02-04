@@ -48,9 +48,9 @@ suites:
     verifier:
       inspec_tests:
         - test/integration/default/ssh.rb
-  - name: demo
-    run_list:
-      - recipe[example-hardening::demo]
-    verifier:
-      inspec_tests:
-        - test/integration/default/demo.rb
+  # - name: demo
+  #   run_list:
+  #     - recipe[example-hardening::demo]
+  #   verifier:
+  #     inspec_tests:
+  #       - test/integration/default/demo.rb
